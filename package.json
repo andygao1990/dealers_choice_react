@@ -12,11 +12,12 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "devDependencies": {
     "@babel/core": "^7.15.0",
     "@babel/preset-react": "^7.14.5",
+    "axios": "^0.21.1",
     "babel-loader": "^8.2.2",
+    "nodemon": "^2.0.12",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "webpack": "^5.51.1",
@@ -24,7 +25,17 @@
   },
   "dependencies": {
     "express": "^4.17.1",
+    "faker": "^5.5.3",
     "pg": "^8.7.1",
     "sequelize": "^6.6.5"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andygao1990/dealers_choice_react.git"
+  },
+  "bugs": {
+    "url": "https://github.com/andygao1990/dealers_choice_react/issues"
+  },
+  "homepage": "https://github.com/andygao1990/dealers_choice_react#readme",
+  "description": ""
 }
